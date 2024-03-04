@@ -52,12 +52,7 @@ public class dangKy<string> extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        SharedPreferences shareData = getPreferences(MODE_PRIVATE);
-        SharedPreferences.Editor editor = shareData.edit();
         String username = edtName.getText().toString();
         String password = edtPass.getText().toString();
-        editor.putString("name", username);
-        editor.putString("pass", password);
-        editor.commit();
     }
 }

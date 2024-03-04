@@ -20,7 +20,7 @@
             android:text="Họ tên:" />
 
         <EditText
-            android:id="@+id/edtNam"
+            android:id="@+id/edtName"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -71,26 +71,34 @@
         android:layout_height="62dp"
         android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/rdBtnTC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <RadioGroup
+            android:id="@+id/rdBtnGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Trung cấp" />
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/rdBtnCD"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Cao đẳng" />
+            <RadioButton
+                android:id="@+id/rdBtnTC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Trung cấp" />
 
-        <RadioButton
-            android:id="@+id/rdBtnDH"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Đại học" />
+            <RadioButton
+                android:id="@+id/rdBtnDH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Đại học" />
+
+            <RadioButton
+                android:id="@+id/rdBtnCD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cao đẳng" />
+        </RadioGroup>
     </LinearLayout>
 
     <LinearLayout

@@ -10,36 +10,43 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="122dp"
+        android:gravity="center"
+        android:background="#0000FF"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="50dp"
+            android:textColor="@color/white"
+            android:text="Thông tin cá nhân" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="424dp"
+        android:gravity="center"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/txtThongTinCaNhan"
             android:layout_width="match_parent"
-            android:layout_height="194dp"
-            android:text="TextView" />
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:text="" />
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txtThongTinBoSung"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:text="TextView" />
+            android:layout_height="150dp"
+            android:textSize="20dp"
+            android:text="" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDong"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="Button" />
+        android:text="Close" />
 </LinearLayout>
