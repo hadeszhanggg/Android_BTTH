@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Bai03">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+        <TextView
+            android:id="@+id/txtRed"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#ff0000"
+            android:textColor="@color/black"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:text="Red" />
+
+        <TextView
+            android:id="@+id/txtBlue"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#1e90ff"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="150dp"
+            android:text="Blue" />
+
+        <TextView
+            android:id="@+id/txtGreen"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#228b22"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="220dp"
+            android:text="Green" />
+
+        <TextView
+            android:id="@+id/txtYellow"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#ffd700"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="270dp"
+            android:text="Yellow" />
+
+        <TextView
+            android:id="@+id/txtOrange"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#daa520"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="220dp"
+            android:text="Orange" />
+
+        <TextView
+            android:id="@+id/txtIndigo"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#66cdaa"
+            android:textColor="@color/black"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="170dp"
+            android:text="Indigo" />
+
+        <TextView
+            android:id="@+id/txtViolet"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#4b0082"
+            android:textColor="@color/white"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="100dp"
+            android:text="Violet" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

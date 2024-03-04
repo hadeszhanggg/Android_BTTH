@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ffff"
+            android:textSize="50dp"
+            android:text="Vui lòng chọn bài" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBai01"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 01" />
+
+        <Button
+            android:id="@+id/btnBai02"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 02" />
+
+        <Button
+            android:id="@+id/btnBai03"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 03" />
+
+        <Button
+            android:id="@+id/btnBai04"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 04" />
+
+        <Button
+            android:id="@+id/btnBai05"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 05" />
+
+        <Button
+            android:id="@+id/btnBai06"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 06" />
+
+        <Button
+            android:id="@+id/btnBai07"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 07" />
+
+        <Button
+            android:id="@+id/btnBai08"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:text="Bài 08" />
+
+        <Button
+            android:id="@+id/btnBai09"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 09" />
+
+        <Button
+            android:id="@+id/btnBai10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bài 10" />
+    </LinearLayout>
+</LinearLayout>
