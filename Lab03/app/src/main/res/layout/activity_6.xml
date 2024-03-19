@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nhập số: "
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/edtSo"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add"
+                android:textColor="@color/black"
+                android:backgroundTint="#BFBFBF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dãy số:"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/edtDaySo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <Button
+                android:id="@+id/btnCreate"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Create"
+                android:textColor="@color/black"
+                android:backgroundTint="#BFBFBF"/>
+
+            <CheckBox
+                android:id="@+id/cbChan"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Chẳn"/>
+
+            <CheckBox
+                android:id="@+id/cbLe"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lẻ" />
+
+            <CheckBox
+                android:id="@+id/cboNgauNhien"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ngẫu nhiên" />
+
+            <CheckBox
+                android:id="@+id/cboSoAm"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Số âm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSort"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sort"
+                android:textColor="@color/black"
+                android:backgroundTint="#BFBFBF"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RadioButton
+                    android:id="@+id/rdoTang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tăng"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/rdoGiam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gỉam"
+                    android:layout_weight="1"/>
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnMinMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tìm Min/Max"
+            android:textColor="@color/black"
+            android:backgroundTint="#BFBFBF"/>
+
+        <Button
+            android:id="@+id/btnXuatXuoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xuất xuôi"
+            android:textColor="@color/black"
+            android:backgroundTint="#BFBFBF"/>
+
+        <Button
+            android:id="@+id/btnXuatNguoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xuất ngược"
+            android:textColor="@color/black"
+            android:backgroundTint="#BFBFBF"/>
+
+        <Button
+            android:id="@+id/btnDaoNgauNgien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đảo ngẫu nhiên"
+            android:textColor="@color/black"
+            android:backgroundTint="#BFBFBF"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
