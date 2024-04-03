@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter number a"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextA"
+        android:layout_marginTop="16dp"
+        android:hint="Enter number b"
+        android:inputType="numberDecimal"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextB"
+        android:layout_marginTop="16dp"
+        android:text="Cộng"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/buttonSubtract"
+       />
+
+    <Button
+        android:id="@+id/buttonSubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextB"
+        android:layout_marginTop="16dp"
+        android:text="Trừ"
+        android:layout_marginRight="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextB"
+        android:layout_marginTop="16dp"
+        android:text="Nhân"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/buttonSubtract"
+        android:layout_toEndOf="@id/buttonSubtract"/>
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextB"
+        android:layout_marginTop="16dp"
+        android:text="Chia"
+        android:layout_toLeftOf="@id/buttonMultiply"
+        android:layout_toEndOf="@id/buttonMultiply"
+       />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginTop="16dp"
+        android:text="Tổng"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
